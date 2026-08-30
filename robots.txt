@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mochiig0.github.io/ColorCard-site/sitemap.xml
