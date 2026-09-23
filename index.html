@@ -1,46 +1,43 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#fffaf7">
+    <meta name="theme-color" content="#f7faf9">
     <meta
       name="description"
-      content="前回のカラーレシピ、施術履歴、メモ、ビフォー・アフター写真を端末内で顧客ごとに管理する、独立系美容師向けiOSアプリ。"
+      content="Keep client color formulas, visit notes, and photos together. An iPhone app for independent hairstylists and colorists."
     >
-    <title>ColorCard — 美容師のためのローカルファーストなカラーレシピ管理</title>
+    <title>ColorCard — Find the last formula. Make it today’s.</title>
     <link rel="canonical" href="https://mochiig0.github.io/ColorCard-site/">
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="icon" href="./assets/favicon.png">
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="ja_JP">
+    <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="ColorCard">
-    <meta property="og:title" content="ColorCard — 美容師のためのカラーレシピ管理">
+    <meta property="og:title" content="ColorCard — Find the last formula. Make it today’s.">
     <meta
       property="og:description"
-      content="前回のレシピを確認し、複製して調整。顧客ごとの施術履歴と写真を端末内で整理するiOSアプリです。"
+      content="Color formulas, photos, and Visit notes for independent hairstylists."
     >
     <meta property="og:url" content="https://mochiig0.github.io/ColorCard-site/">
     <meta property="og:image" content="https://mochiig0.github.io/ColorCard-site/assets/og.png">
-    <meta property="og:image:width" content="1729">
-    <meta property="og:image:height" content="910">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
     <meta
       property="og:image:alt"
-      content="ColorCardと、フリーランス美容師のためのローカルファーストなカラーレシピ管理という紹介文"
+      content="ColorCard app icon with a fan of hair-color swatches on a deep teal background"
     >
     <meta name="twitter:card" content="summary_large_image">
   </head>
-  <body>
-    <a class="skip-link" href="#main">本文へ移動</a>
-
+  <body class="compact-lp">
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="wordmark" href="./" aria-label="ColorCard ホーム">ColorCard</a>
-        <nav class="site-nav" aria-label="メインナビゲーション">
-          <a href="#features">機能</a>
-          <a href="#privacy">プライバシー</a>
-          <a href="#faq">FAQ</a>
-          <a href="./support/">サポート</a>
+        <a class="wordmark" href="./" aria-label="ColorCard home"><img src="./assets/icon.png" width="32" height="32" alt="">ColorCard</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="./privacy/">Privacy</a>
+          <a href="./support/">Support</a>
         </nav>
       </div>
     </header>
@@ -49,283 +46,63 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow"><span aria-hidden="true"></span>ColorCard for iOS</p>
-            <h1 id="hero-title">ColorCard</h1>
-            <p class="hero-lead">前回のレシピを見つけ、数秒で繰り返す。</p>
-            <p class="hero-description">
-              顧客ごとのレシピ、施術履歴、ビフォー・アフター写真を保存。
-              前回の配合を複製し、変わった部分だけを調整して、今回の施術へつなげます。
-            </p>
-            <div class="hero-actions" aria-label="公開状況とページ内リンク">
-              <span class="status-label">iOS版を準備中</span>
-              <a class="button button-secondary" href="#features">機能を見る</a>
+            <p class="eyebrow">ColorCard for iPhone</p>
+            <h1 id="hero-title">Find the last formula.<br><span>Make it today’s.</span></h1>
+            <p class="hero-description">Your clients’ color formulas, notes, and photos, together.<br>Made for independent hairstylists and colorists.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://apps.apple.com/app/id6806706180">View on the App Store <span aria-hidden="true"> ↗</span></a>
             </div>
-            <ul class="hero-facts" aria-label="ColorCardの基本方針">
-              <li>アカウント不要</li>
-              <li>ColorCardクラウド同期なし</li>
-              <li>買い切り。サブスクリプションなし</li>
-              <li>現在のリリース対象はiOS</li>
-            </ul>
+            <p class="status-label">Free for up to 3 clients.</p>
           </div>
-
-          <aside class="proof-panel" aria-labelledby="proof-title">
-            <div class="formula-stripe" aria-hidden="true">
-              <span></span><span></span><span></span><span></span>
-            </div>
-            <p class="section-kicker">実機スクリーンショット</p>
-            <h2 id="proof-title">公開候補ビルドから<br>準備しています。</h2>
-            <p>
-              現在、掲載できる実機画像はまだありません。架空のアプリ画面は作らず、
-              架空データを入れたiOS候補ビルドから撮影した画面だけを公開します。
-            </p>
-            <ol class="proof-flow" aria-label="ColorCardの中心的な利用フロー">
-              <li><span>01</span><strong>顧客を探す</strong></li>
-              <li><span>02</span><strong>前回を確認・複製</strong></li>
-              <li><span>03</span><strong>今回分を調整</strong></li>
-              <li><span>04</span><strong>履歴として記録</strong></li>
-            </ol>
-            <p class="proof-note">画面公開まで、実装済みの機能と制約を本文で正確にお伝えします。</p>
-          </aside>
-        </div>
-      </section>
-
-      <section class="section section-features" id="features" aria-labelledby="features-title">
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <p class="section-kicker">主な機能</p>
-              <h2 id="features-title">前回から次回まで、カラー記録をひと続きに。</h2>
-            </div>
-            <p>
-              サロン運営のすべてを抱え込まず、カラー施術の確認と記録に必要な機能だけをまとめています。
-            </p>
-          </div>
-
-          <div class="feature-grid">
-            <article class="feature-card feature-card-wide">
-              <p class="feature-number">01 / Client card</p>
-              <h3>顧客カード</h3>
-              <p>連絡先、メモ、タグ、お気に入り、アーカイブ状態を顧客ごとに整理。前回の情報へ戻る起点になります。</p>
-              <ul class="inline-list" aria-label="顧客カードの項目">
-                <li>メモ</li><li>タグ</li><li>お気に入り</li><li>アーカイブ</li>
-              </ul>
-            </article>
-
-            <article class="feature-card feature-card-narrow">
-              <p class="feature-number">02 / Formula</p>
-              <h3>複数項目のカラーレシピ</h3>
-              <p>ブランド、ライン、色番、使用量、デベロッパー、比率、放置時間などを複数行で記録できます。</p>
-            </article>
-
-            <article class="feature-card">
-              <p class="feature-number">03 / Duplicate</p>
-              <h3>レシピを複製</h3>
-              <p>前回レシピを元の記録を変えずに複製し、今回分だけを調整できます。</p>
-            </article>
-
-            <article class="feature-card">
-              <p class="feature-number">04 / History</p>
-              <h3>施術履歴</h3>
-              <p>施術日、施術名、結果、メモを保存し、顧客ごとの経過を振り返れます。</p>
-            </article>
-
-            <article class="feature-card">
-              <p class="feature-number">05 / Photos</p>
-              <h3>ビフォー・アフター写真</h3>
-              <p>必要なときだけ写真を追加。写真権限を許可しなくても、テキストのみで記録できます。</p>
-            </article>
-
-            <article class="feature-card feature-card-wide">
-              <p class="feature-number">06 / Organize</p>
-              <h3>検索、タグ、お気に入り、アーカイブ</h3>
-              <p>顧客名だけでなく、連絡先、メモ、タグ、レシピ情報も端末内で検索。よく見る顧客と過去の記録を分けて整理できます。</p>
-            </article>
-
-            <article class="feature-card feature-card-narrow feature-card-accent">
-              <p class="feature-number">07 / Backup</p>
-              <h3>バックアップと復元</h3>
-              <p>ユーザー操作でJSONを書き出し、形式・バージョン・チェックサムを確認してから復元します。</p>
-              <a class="text-link" href="./privacy/#backup">バックアップの注意点を読む<span aria-hidden="true"> →</span></a>
-            </article>
+          <div class="product-screens" aria-label="ColorCard app screens">
+            <figure class="product-screen product-screen-side">
+              <img src="./assets/screenshots/clients.png" width="1206" height="2622" alt="Client list with search and each Client’s latest Formula" decoding="async">
+              <figcaption>Find your client.</figcaption>
+            </figure>
+            <figure class="product-screen product-screen-main">
+              <img src="./assets/screenshots/last-formula.png" width="1206" height="2622" alt="Client record showing the last Formula and the Repeat last formula action" fetchpriority="high">
+              <figcaption>Pick up where you left off.</figcaption>
+            </figure>
+            <figure class="product-screen product-screen-side">
+              <img src="./assets/screenshots/visit.png" width="1206" height="2622" alt="Visit record with the Formula, notes, and before-and-after photos" decoding="async">
+              <figcaption>Keep the whole visit together.</figcaption>
+            </figure>
           </div>
         </div>
       </section>
 
-      <section class="section workflow-section" id="workflow" aria-labelledby="workflow-title">
-        <div class="container">
-          <div class="section-heading section-heading-compact">
-            <div>
-              <p class="section-kicker">利用フロー</p>
-              <h2 id="workflow-title">次の施術まで、4ステップ。</h2>
-            </div>
-          </div>
-          <ol class="workflow-list">
-            <li>
-              <span class="workflow-number">01</span>
-              <div><h3>顧客を探す</h3><p>名前、タグ、メモ、レシピ情報から端末内で検索します。</p></div>
-            </li>
-            <li>
-              <span class="workflow-number">02</span>
-              <div><h3>前回を確認・複製</h3><p>履歴と写真を見返し、前回レシピを今回分として複製します。</p></div>
-            </li>
-            <li>
-              <span class="workflow-number">03</span>
-              <div><h3>調整して記録</h3><p>色番や使用量を調整し、施術内容と結果を保存します。</p></div>
-            </li>
-            <li>
-              <span class="workflow-number">04</span>
-              <div><h3>必要なら写真を追加</h3><p>ビフォー・アフターを選択。写真なしの記録も続けられます。</p></div>
-            </li>
-          </ol>
+      <section class="screen-gallery container" aria-labelledby="screens-title">
+        <h2 id="screens-title">Last time’s formula. This time’s results.</h2>
+        <div class="screen-gallery-track" role="region" aria-label="Six ColorCard screenshots" tabindex="0">
+          <a href="./assets/screenshots/01-last-formula.png"><img src="./assets/screenshots/01-last-formula.png" width="1320" height="2868" loading="lazy" alt="Find the last color formula. Client record with the last Formula, ready to duplicate and adjust."></a>
+          <a href="./assets/screenshots/02-adjust-formula.png"><img src="./assets/screenshots/02-adjust-formula.png" width="1320" height="2868" loading="lazy" alt="Repeat a formula. Make adjustments. Formula editor with shade, amount, developer, and processing time."></a>
+          <a href="./assets/screenshots/03-before-after.png"><img src="./assets/screenshots/03-before-after.png" width="1320" height="2868" loading="lazy" alt="Keep before and after together. Visit record with two photos and the Formula used."></a>
+          <a href="./assets/screenshots/04-log-visit.png"><img src="./assets/screenshots/04-log-visit.png" width="1320" height="2868" loading="lazy" alt="Log each visit. Add the date, Formula, notes, and optional photos."></a>
+          <a href="./assets/screenshots/05-client-notes.png"><img src="./assets/screenshots/05-client-notes.png" width="1320" height="2868" loading="lazy" alt="See client notes at a glance. Searchable Client list with notes and the latest Formula."></a>
+          <a href="./assets/screenshots/06-backup.png"><img src="./assets/screenshots/06-backup.png" width="1320" height="2868" loading="lazy" alt="Back up your client records. Backup &amp; Restore settings for exporting and importing ColorCard records."></a>
         </div>
       </section>
 
-      <section class="section privacy-section" id="privacy" aria-labelledby="privacy-title">
-        <div class="container privacy-grid">
-          <div class="privacy-copy">
-            <p class="section-kicker section-kicker-light">プライバシー</p>
-            <h2 id="privacy-title">顧客情報を扱う道具だから、保存先をシンプルに。</h2>
-            <p>
-              ColorCardの作業用記録は基本的に端末内へ保存されます。
-              このリリース予定版には、アカウント、顧客データを受信するColorCardサーバー、
-              ColorCardクラウド同期、分析SDKはありません。
-            </p>
-            <a class="button button-light" href="./privacy/">プライバシーの詳細</a>
-          </div>
-          <div class="privacy-facts">
-            <article>
-              <p class="privacy-label">通常の保存</p>
-              <h3>端末内のデータベースとアプリ管理領域</h3>
-              <p>顧客・レシピ・履歴はローカルデータベースへ、選択した写真はアプリ管理のローカル領域へ保存します。</p>
-            </article>
-            <article>
-              <p class="privacy-label">共有が起きるとき</p>
-              <h3>バックアップを書き出し、送信先を選んだときだけ</h3>
-              <p>共有はユーザー操作で始まります。書き出したJSONはColorCardによって暗号化されません。</p>
-            </article>
-            <article>
-              <p class="privacy-label">OSとの境界</p>
-              <h3>端末バックアップや移行の対象になる場合があります</h3>
-              <p>OSの設定によるバックアップや移行は、ColorCardのクラウド同期とは別の仕組みです。</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-features" id="pricing" aria-labelledby="pricing-title">
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <p class="section-kicker">料金</p>
-              <h2 id="pricing-title">3人まで無料。必要になったら、一度だけ。</h2>
-            </div>
-            <p>1.0は無料ダウンロードで、顧客3人まで利用できます。Lifetime Unlockで顧客登録数の上限だけを解除します。</p>
-          </div>
-          <div class="feature-grid">
-            <article class="feature-card feature-card-wide">
-              <p class="feature-number">Free</p>
-              <h3>顧客3人まで</h3>
-              <p>レシピ、施術履歴、写真、バックアップと復元を利用できます。既存の記録を購入状態でロックしません。</p>
-            </article>
-            <article class="feature-card feature-card-narrow feature-card-accent">
-              <p class="feature-number">Lifetime</p>
-              <h3>顧客数を無制限に</h3>
-              <p>一度だけのLifetime Unlockです。サブスクリプションではありません。価格は販売開始時にApp Storeの表示をご確認ください。</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section scope-section" id="not-included" aria-labelledby="scope-title">
-        <div class="container scope-grid">
-          <div>
-            <p class="section-kicker">対象外の機能</p>
-            <h2 id="scope-title">総合サロンシステムにはしない。</h2>
-            <p class="scope-intro">
-              ColorCardは、予約や会計をまとめるCRMではありません。
-              カラー記録を確認し、次回へつなぐことに集中しています。
-            </p>
-          </div>
-          <ul class="not-included-list">
-            <li><span>予約管理</span><em>なし</em></li>
-            <li><span>POS・決済</span><em>なし</em></li>
-            <li><span>給与管理</span><em>なし</em></li>
-            <li><span>CRM自動化</span><em>なし</em></li>
-            <li><span>AI・外部レシピ提案</span><em>なし</em></li>
-            <li><span>マーケットプレイス</span><em>なし</em></li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section faq-section" id="faq" aria-labelledby="faq-title">
-        <div class="container faq-grid">
-          <div class="faq-heading">
-            <p class="section-kicker">FAQ</p>
-            <h2 id="faq-title">よくある質問</h2>
-            <p>公開状況やデータの扱いについて、先にお答えします。</p>
-          </div>
-          <div class="faq-list">
-            <details>
-              <summary>アカウントは必要ですか？</summary>
-              <p>いいえ。ColorCardはアカウント不要で、ログイン機能もありません。</p>
-            </details>
-            <details>
-              <summary>オフラインで使えますか？</summary>
-              <p>アプリをインストールして必要なバンドルが端末にある状態では、記録・検索などの主要機能をオフラインで利用する設計です。バックアップの共有先など、OSや外部サービス側の動作は別です。</p>
-            </details>
-            <details>
-              <summary>写真権限を拒否しても使えますか？</summary>
-              <p>はい。写真は任意です。拒否しても、顧客、カラーレシピ、テキストのみの施術記録を利用できます。カメラとマイクは使用しません。</p>
-            </details>
-            <details>
-              <summary>データはどこに保存されますか？</summary>
-              <p>顧客・レシピ・施術記録などは端末内のローカルデータベースへ、選択した写真はアプリ管理のローカル領域へ保存されます。OS設定により端末バックアップや移行の対象になる場合があります。</p>
-            </details>
-            <details>
-              <summary>バックアップには何が含まれますか？</summary>
-              <p>顧客情報、カラーレシピ、メモ、施術履歴、利用可能な写真データが含まれる場合があります。JSON形式で、ColorCardによって暗号化されません。端末固有のファイルパスは含めません。</p>
-            </details>
-            <details>
-              <summary>Android版の予定はありますか？</summary>
-              <p>現在のリリース対象はiOSです。Android向けの公開と実機QAは延期しており、提供時期は未定です。</p>
-            </details>
-            <details>
-              <summary>Lifetime Unlockは購入できますか？</summary>
-              <p>リリース候補には一度だけの購入と「購入を復元」を実装していますが、App Storeでの販売はまだ開始していません。販売開始後は、App Storeに表示される現地価格で購入できます。サブスクリプションではありません。</p>
-            </details>
-          </div>
-        </div>
-      </section>
-
-      <section class="section final-cta" id="support" aria-labelledby="support-title">
-        <div class="container final-cta-inner">
-          <div>
-            <p class="section-kicker">公開準備中</p>
-            <h2 id="support-title">まずは、機能とデータの扱いを確認できます。</h2>
-            <p>App Storeでの公開が確認できるまで、ダウンロードを促す表示は行いません。</p>
-          </div>
-          <div class="final-cta-actions">
-            <a class="button button-primary" href="./privacy/">Privacyを見る</a>
-            <a class="button button-secondary" href="./support/">Supportを見る</a>
-          </div>
-        </div>
-      </section>
+      <div class="compact-details container">
+        <section id="pricing" aria-labelledby="pricing-title">
+          <h2 id="pricing-title">More clients? One purchase.</h2>
+          <p>Lifetime Unlock removes the client limit.<br>No subscription.</p>
+        </section>
+        <section id="privacy" aria-labelledby="privacy-title">
+          <h2 id="privacy-title">Stored on your iPhone.</h2>
+          <p>No account needed. Export a backup when you need one.</p>
+          <a class="text-link" href="./privacy/">Privacy &amp; backup details<span aria-hidden="true"> →</span></a>
+        </section>
+      </div>
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <a class="wordmark wordmark-footer" href="./">ColorCard</a>
-          <p>独立系美容師のための、ローカルファーストなカラーレシピ管理。</p>
-        </div>
-        <nav class="footer-nav" aria-label="フッターナビゲーション">
+      <div class="container compact-footer">
+        <p>© 2026 Mochiig0</p>
+        <nav class="footer-nav" aria-label="Footer navigation">
           <a href="./privacy/">Privacy</a>
           <a href="./support/">Support</a>
         </nav>
-      </div>
-      <div class="container footer-note">
-        <p>サポートへ顧客名、写真、レシピ、バックアップなどの個人情報を送らないでください。</p>
-        <p>© 2026 Mochiig0</p>
       </div>
     </footer>
   </body>
