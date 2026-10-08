@@ -1,47 +1,38 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#fffaf7">
-    <meta
-      name="description"
-      content="ColorCardの使い方、ローカル保存、写真権限、バックアップ、トラブル対応、フィードバック先をご案内します。"
-    >
-    <title>Support — ColorCard</title>
+    <meta name="theme-color" content="#f7faf9">
+    <meta name="description" content="ColorCard setup, storage, photo access, backup safety, purchase help, troubleshooting, and support.">
+    <title>ColorCard Support</title>
     <link rel="canonical" href="https://mochiig0.github.io/ColorCard-site/support/">
     <link rel="stylesheet" href="../assets/styles.css">
     <link rel="icon" href="../assets/favicon.png">
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="ja_JP">
+    <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="ColorCard">
     <meta property="og:title" content="ColorCard Support">
-    <meta
-      property="og:description"
-      content="ColorCardの使い方、写真権限、バックアップ、安全なフィードバック方法をご案内します。"
-    >
+    <meta property="og:description" content="Setup, backup, photo, purchase, troubleshooting, and message support for ColorCard.">
     <meta property="og:url" content="https://mochiig0.github.io/ColorCard-site/support/">
     <meta property="og:image" content="https://mochiig0.github.io/ColorCard-site/assets/og.png">
-    <meta property="og:image:width" content="1729">
-    <meta property="og:image:height" content="910">
-    <meta
-      property="og:image:alt"
-      content="ColorCardと、フリーランス美容師のためのローカルファーストなカラーレシピ管理という紹介文"
-    >
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <meta property="og:image:alt" content="ColorCard app icon with a fan of hair-color swatches on a deep teal background">
     <meta name="twitter:card" content="summary_large_image">
     <script src="../assets/support-form.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main">本文へ移動</a>
+    <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
       <div class="container header-inner">
-        <a class="wordmark" href="../" aria-label="ColorCard ホーム">ColorCard</a>
-        <nav class="site-nav" aria-label="メインナビゲーション">
-          <a href="../#features">機能</a>
-          <a href="../privacy/">プライバシー</a>
-          <a href="../#faq">FAQ</a>
-          <a href="./" aria-current="page">サポート</a>
+        <a class="wordmark" href="../" aria-label="ColorCard home">ColorCard</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="../#screens-title">How it works</a>
+          <a href="../privacy/">Privacy</a>
+          <a href="#troubleshooting">FAQ</a>
+          <a href="./" aria-current="page">Support</a>
         </nav>
       </div>
     </header>
@@ -50,15 +41,13 @@
       <header class="legal-hero support-hero">
         <div class="container legal-hero-inner">
           <div>
-            <p class="eyebrow"><span aria-hidden="true"></span>Support</p>
+            <p class="eyebrow">Support</p>
             <h1>ColorCard Support</h1>
             <p class="legal-lead">Need help with ColorCard? Send us a message below.</p>
           </div>
           <dl class="legal-meta">
-            <div><dt>公開状況</dt><dd>iOS版を準備中</dd></div>
-            <div><dt>バージョン</dt><dd>1.0.0 公開予定版</dd></div>
-            <div><dt>アカウント</dt><dd>不要</dd></div>
-            <div><dt>クラウド同期</dt><dd>なし</dd></div>
+            <div><dt>Account</dt><dd>Not required</dd></div>
+            <div><dt>Cloud sync</dt><dd>Not included</dd></div>
           </dl>
         </div>
       </header>
@@ -71,23 +60,11 @@
             <p>Tell us what you need help with. We'll reply by email.</p>
           </div>
 
-          <form
-            class="support-form"
-            id="support-form"
-            action="https://formspree.io/f/xaeynzgr"
-            method="post"
-          >
+          <form class="support-form" id="support-form" action="https://formspree.io/f/xaeynzgr" method="post">
             <div class="support-form-grid">
               <div class="form-field">
                 <label for="support-email">Email</label>
-                <input
-                  id="support-email"
-                  name="email"
-                  type="email"
-                  autocomplete="email"
-                  aria-describedby="support-email-help"
-                  required
-                >
+                <input id="support-email" name="email" type="email" autocomplete="email" aria-describedby="support-email-help" required>
                 <p class="form-helper" id="support-email-help">We'll use this only to reply to your request.</p>
               </div>
 
@@ -117,104 +94,69 @@
             </div>
 
             <div class="support-form-actions">
-              <button class="button button-primary" id="support-submit" type="submit" disabled>
-                Send message
-              </button>
+              <button class="button button-primary" id="support-submit" type="submit" disabled>Send message</button>
               <p class="form-status" id="support-form-status" role="status" aria-live="polite"></p>
             </div>
+            <p class="form-privacy-note">Your email, category, and message are sent through Formspree. <a href="../privacy/#support-messages">How support messages are handled</a>.</p>
           </form>
         </section>
 
         <div class="support-content">
           <section id="getting-started">
-            <p class="section-kicker">はじめに</p>
-            <h2>基本の使い方</h2>
+            <p class="section-kicker">Getting started</p>
+            <h2>The basic ColorCard workflow</h2>
             <ol class="numbered-list">
-              <li><span>1</span><div><strong>顧客を追加</strong><p>顧客カードへ名前、メモ、タグなどを保存します。</p></div></li>
-              <li><span>2</span><div><strong>カラーレシピを記録</strong><p>使用した色番や量をMixとして記録します。</p></div></li>
-              <li><span>3</span><div><strong>施術を保存</strong><p>施術内容、結果、メモ、任意のビフォー・アフター写真を追加します。</p></div></li>
-              <li><span>4</span><div><strong>バックアップ</strong><p>端末の交換やデータの置き換え前に、信頼できる場所へ書き出します。</p></div></li>
+              <li><span>1</span><div><strong>Add a client</strong><p>Create a client card with the details you need. The free tier supports up to three client cards.</p></div></li>
+              <li><span>2</span><div><strong>Save a formula</strong><p>Add the colors, products, and amounts used in the formula.</p></div></li>
+              <li><span>3</span><div><strong>Log the visit</strong><p>Save the service, result, notes, and optional before-and-after photos.</p></div></li>
+              <li><span>4</span><div><strong>Export a backup</strong><p>Create a backup before replacing or moving a device.</p></div></li>
             </ol>
           </section>
 
           <section id="storage">
-            <p class="section-kicker">保存先</p>
-            <h2>データは基本的に端末内へ</h2>
-            <p>
-              顧客、レシピ、施術履歴、選択した写真はColorCardの端末内データとして保存されます。
-              アカウントやColorCardクラウド同期はありません。
-            </p>
-            <p>
-              OSの設定によって、アプリデータが端末バックアップ、移行、復元の対象になる場合があります。
-              これはColorCardのクラウド同期とは別です。詳しくは
-              <a href="../privacy/">プライバシーポリシー</a>をご覧ください。
-            </p>
+            <p class="section-kicker">On-device storage</p>
+            <h2>Records stay primarily on the device</h2>
+            <p>ColorCard stores client records and selected photos in app-owned local storage. It has no ColorCard account or cloud-sync service.</p>
+            <p>The operating system may separately include app data in device backup or migration. Review the <a href="../privacy/">Privacy Policy</a> for the full boundaries.</p>
           </section>
 
           <section id="photo-permission">
-            <p class="section-kicker">写真権限</p>
-            <h2>写真を使わなくても記録できます</h2>
-            <p>
-              写真アクセスは任意です。拒否しても顧客、レシピ、テキストのみの施術記録を利用できます。
-              ColorCardはカメラとマイクを使わず、ユーザーが追加操作をしたときに
-              システムの写真選択画面から画像を選びます。
-            </p>
+            <p class="section-kicker">Photo access</p>
+            <h2>Photos are optional</h2>
+            <p>If photo access is denied, client cards, formulas, and text-only visits remain available.</p>
+            <p>ColorCard does not use the camera or microphone. It lets you select images from the system photo picker for before-and-after records.</p>
           </section>
 
           <section id="backup">
-            <p class="section-kicker">バックアップ</p>
-            <h2>バックアップは安全な場所へ</h2>
-            <p>
-              バックアップには顧客情報、レシピ、メモ、施術履歴、写真が含まれる場合があります。
-              暗号化されないため、信頼できる場所だけに保管してください。
-            </p>
-            <p>
-              復元前にバックアップを確認し、読み込めない場合は現在のデータを置き換えません。
-              復元後の内容を確認するまでは、元のバックアップも残してください。
-            </p>
+            <p class="section-kicker">Backup safety</p>
+            <h2>Keep backups in a trusted location</h2>
+            <p>A backup may include client records and photos. It is not encrypted by ColorCard.</p>
+            <p>ColorCard checks a backup before replacing current records. Keep a known-good backup until you have checked the restored data.</p>
           </section>
 
           <section id="data-loss">
-            <p class="section-kicker">復元とデータ消失</p>
-            <h2>サーバー上の復元用コピーはありません</h2>
+            <p class="section-kicker">Restore and data loss</p>
+            <h2>There is no server copy for Support to restore</h2>
             <ul>
-              <li>アプリの強制終了や端末の再起動で、保存済み記録が消えない設計です。</li>
-              <li>顧客、レシピ、施術フォームの未保存下書きは、同じフォームを開いたときに復元される場合があります。</li>
-              <li>顧客のアーカイブは削除ではなく、記録を保持します。</li>
-              <li>アプリを削除すると、通常はその端末上のアプリ管理データも削除されます。</li>
-              <li>書き出したファイルやOSバックアップは、保存先から別に削除する必要があります。</li>
-              <li>サポート側には、復元できるColorCardのサーバーコピーがありません。</li>
+              <li>Force-closing or restarting the phone should not remove saved records.</li>
+              <li>Unsaved client, formula, and visit drafts may be restored when the same form is reopened.</li>
+              <li>Archiving a client keeps the record and is not deletion.</li>
+              <li>Uninstalling ColorCard normally removes app-owned local data from that device.</li>
+              <li>Exported files and operating-system backups must be deleted separately from their storage location.</li>
+              <li>Support does not have a server copy of your ColorCard records.</li>
             </ul>
           </section>
 
           <section id="troubleshooting">
-            <p class="section-kicker">トラブルシューティング</p>
-            <h2>よくある確認事項</h2>
+            <p class="section-kicker">Troubleshooting</p>
+            <h2>Things to check</h2>
             <div class="faq-list support-faq">
-              <details>
-                <summary>顧客が一覧に見つかりません</summary>
-                <p>検索欄を空にし、「すべて」「お気に入り」「アーカイブ」の絞り込みを確認してください。</p>
-              </details>
-              <details>
-                <summary>写真を追加できません</summary>
-                <p>iOS設定でColorCardの写真アクセスを確認してください。写真を追加せず、テキストのみの施術として保存することもできます。</p>
-              </details>
-              <details>
-                <summary>バックアップの読み込みが拒否されます</summary>
-                <p>ColorCardから書き出した、変更されていないバックアップか確認してください。読み込みに失敗しても現在のデータは置き換えません。</p>
-              </details>
-              <details>
-                <summary>誤った送信先へバックアップを共有しました</summary>
-                <p>OSがユーザーの選んだ送信先へ渡した後、ColorCardからファイルを取り消すことはできません。送信先で削除するか、その提供者へ連絡してください。</p>
-              </details>
-              <details>
-                <summary>Androidで利用できますか？</summary>
-                <p>現在のリリース対象はiOSです。Androidの実機QAと公開は延期しており、提供時期は未定です。</p>
-              </details>
-              <details>
-                <summary>Lifetime Unlockを購入・復元できますか？</summary>
-                <p>リリース候補には一度だけの購入と「購入を復元」を実装していますが、App Storeでの販売はまだ開始していません。販売開始後は、同じApple Accountで「購入を復元」できます。サブスクリプションではありません。</p>
-              </details>
+              <details><summary>A client is missing from the list</summary><p>Clear the search field and check the Active, Favorites, and Archived filters.</p></details>
+              <details><summary>A photo cannot be added</summary><p>Check ColorCard's Photos permission in iOS Settings. You can continue and save a text-only visit.</p></details>
+              <details><summary>A backup import is rejected</summary><p>Confirm the file is an unmodified ColorCard JSON backup from a compatible version. A failed import should leave the current records unchanged.</p></details>
+              <details><summary>A backup was shared to the wrong destination</summary><p>ColorCard cannot recall a file after the operating system sends it to a destination you chose. Delete it from that provider or contact the provider directly.</p></details>
+              <details><summary>Can I use ColorCard on Android?</summary><p>The current release target is iPhone. Android device testing and release are deferred, with no announced release date.</p></details>
+              <details><summary>How do I restore Lifetime Unlock?</summary><p>Open Settings → Lifetime Unlock → Restore Purchases in ColorCard. Use the same Apple Account that made the purchase. If you need help, select Purchase or restore in the form above. Do not include receipts or payment details.</p></details>
             </div>
           </section>
         </div>
@@ -223,19 +165,10 @@
 
     <footer class="site-footer">
       <div class="container footer-grid">
-        <div>
-          <a class="wordmark wordmark-footer" href="../">ColorCard</a>
-          <p>独立系美容師のための、ローカルファーストなカラーレシピ管理。</p>
-        </div>
-        <nav class="footer-nav" aria-label="フッターナビゲーション">
-          <a href="../privacy/">Privacy</a>
-          <a href="./" aria-current="page">Support</a>
-        </nav>
+        <div><a class="wordmark wordmark-footer" href="../">ColorCard</a><p>A focused, local-first color formula card for independent hairstylists and colorists.</p></div>
+        <nav class="footer-nav" aria-label="Footer navigation"><a href="../privacy/">Privacy</a><a href="./" aria-current="page">Support</a></nav>
       </div>
-      <div class="container footer-note">
-        <p>サポートへ顧客の個人情報やバックアップを送らないでください。</p>
-        <p>© 2026 Mochiig0</p>
-      </div>
+      <div class="container footer-note"><p>Do not send client names, photos, formulas, or backup files through Support.</p><p>© 2026 Mochiig0</p></div>
     </footer>
   </body>
 </html>
