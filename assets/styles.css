@@ -1632,9 +1632,8 @@ ol:last-child {
 }
 @media (max-width: 46rem) {
   .container { width: calc(100% - 2.5rem); }
-  .header-inner { flex-direction: row; align-items: center; gap: .5rem; }
-  .site-nav { width: auto; gap: .75rem; flex-wrap: nowrap; }
-  .site-nav a[href*="#workflow"], .site-nav a[href*="#faq"] { display: none; }
+  .header-inner { flex-direction: row; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+  .site-nav { width: auto; max-width: 100%; gap: .5rem .75rem; flex-wrap: wrap; }
   .wordmark { font-size: 1rem; gap: .4rem; }
   .hero-meta { margin-bottom: 1.75rem; gap: .75rem; }
   .hero-grid { gap: 3rem; }
